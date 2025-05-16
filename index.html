@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pratik Patole | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet"/>
 </head>
 <body>
 
+  <!-- Navigation -->
   <header>
     <div class="container">
-      <h1>Pratik Patole</h1>
+      <h1 class="logo">Pratik</h1>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
@@ -24,53 +27,60 @@
     </div>
   </header>
 
-  <section id="home" class="hero">
+  <!-- Home -->
+  <section id="home" class="home">
     <h2>Hi, I'm Pratik Patole</h2>
     <p>Aspiring Web Developer & Computer Engineer</p>
   </section>
 
-  <section id="about">
+  <!-- About -->
+  <section id="about" class="about">
     <h2>About Me</h2>
-    <p>I’m a student currently pursuing Computer Engineering. My goal is to become a Full Stack Developer and work with companies focused on innovation and customer satisfaction.</p>
+    <div class="about-content">
+      <img src="img/myphoto.jpg" alt="Namrata's Photo" class="profile-pic"/>
+      <p>I’m a student currently pursuing Computer Engineering. My goal is to become a Full Stack Developer and work with companies focused on innovation and customer satisfaction.</p>
+    </div>
   </section>
 
-  <section id="skills">
+  <!-- Skills -->
+  <section id="skills" class="skills">
     <h2>Skills</h2>
     <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>GitHub</li>
+      <li><i class="fa-brands fa-html5"></i> HTML</li>
+      <li><i class="fa-brands fa-css3-alt"></i> CSS</li>
+      <li><i class="fa-brands fa-js"></i> JavaScript</li>
+      <li><i class="fa-brands fa-github"></i> GitHub</li>
     </ul>
   </section>
 
-  <section id="projects">
+  <!-- Projects -->
+  <section id="projects" class="projects">
     <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
+    <div class="project-cards">
+      <div class="card">
         <h3>Portfolio Website</h3>
         <p>A personal responsive website made using HTML & CSS.</p>
       </div>
-      <div class="project-card">
+      <div class="card">
         <h3>Bakery Website</h3>
         <p>A simple, static bakery site with attractive UI design.</p>
       </div>
-      <div class="project-card">
+      <div class="card">
         <h3>Plant Nursery</h3>
         <p>Plant category-based website for nursery products using flex and grid.</p>
       </div>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer id="contact">
     <p>© 2025 Pratik Patole | All Rights Reserved.</p>
-    <div class="social-links">
-      <a href="https://github.com/Namratawaje20" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/namrata-waje-69a2142ab" target="_blank">LinkedIn</a>
-      <a href="https://www.instagram.com/namrata_waje01/" t
-arget="_blank">Instagram</a>
+    <div class="social-icons">
+      <a href="https://github.com/Namratawaje20" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/namrata-waje-69a2142ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/namrata_waje01/" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
   </footer>
 
 </body>
-</html> 
+</html>
